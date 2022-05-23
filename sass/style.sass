@@ -1,6 +1,17 @@
 @import "normalize.scss"
 @import "reset.scss"
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap')
+
+*
+    box-sizing: border-box
+
+
+$color-blue: #5290EA
+$color-orange: #F28B64
+
+
+
+
 body
     font-family:  'Montserrat', sans-serif
 
@@ -18,6 +29,10 @@ body
         justify-content: space-between
         height: 69px
         align-items: center
+    &__content-container
+        position: relative
+        display: flex
+        flex-direction: row
 
 .nav-menu
     &__list
@@ -29,5 +44,105 @@ body
         &:last-child
             margin-right: 0px
 
+.left-wrapper
+    position: relative
+    &__block-blue
+        position: absolute
+        top: 135px
+        left: -52px
+        width: 565.95px
+        height: 220px
+        background: $color-blue
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        transform: rotate(-64deg)
+        z-index: 2
+    &__block-orange
+        position: absolute
+        top: 160px
+        left: -20px
+        width: 585.95px
+        height: 220px
+        background: $color-orange
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        transform: rotate(-50.81deg)
+        z-index: 3
+    &__block-white
+        position: absolute
+        top: 190px
+        left: 20px
+        width: 565.95px
+        height: 220px
+        background: #E2E2E2
+        border-radius: 100px
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        transform: rotate(-36.15deg)
+        z-index: 1
+    &__img
+        position: relative
+        z-index: 5
+
+.right-wrapper
+    width: 372px
+    position: absolute
+    top: 150px
+    right: 76px
+    &__icons-box
+        margin-bottom: 1px
+        padding-left: 10px
+    &__title
+        margin-bottom: 5px
+    &__text-box
+        font-size: 16px
+        margin-bottom: 20px
 
 
+.icons
+    display: flex
+    flex-direction: row
+    &__item
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 40px
+        height: 40px
+        border: 1px solid $color-blue
+        border-radius: 100%
+        margin-right: 17px
+        i
+            font-size: 21px
+    &__item:last-child
+        margin-right: 0px
+
+
+.title
+    font-size: 72px
+    position: relative
+    &__hr
+        position: absolute
+        width: 62px
+        margin: 0
+        border: none
+        border-top: 1px solid black
+
+
+.buttons
+    display: inline-flex
+    &__main-btn
+        margin-right: 32px
+        width: 200px
+        height: 60px
+        background: $color-orange
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border: none
+        border-radius: 100px
+        color: white
+        font-size: 18px
+    &__icon
+        display: inline-flex
+        align-items: center
+    &__img
+        margin-right: 12px
+    &__text
+        font-size: 16px

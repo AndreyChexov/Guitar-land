@@ -434,25 +434,30 @@ table {
   border-spacing: 0;
 }
 
-/* line 4, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+/* line 5, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+* {
+  box-sizing: border-box;
+}
+
+/* line 15, D:/AllProjects/верстка/proj2/src/sass/style.sass */
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 7, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+/* line 18, D:/AllProjects/верстка/proj2/src/sass/style.sass */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 11, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+/* line 22, D:/AllProjects/верстка/proj2/src/sass/style.sass */
 .main-section {
   height: 800px;
   background: #f0f0f0;
   padding-top: 16px;
 }
 
-/* line 15, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+/* line 26, D:/AllProjects/верстка/proj2/src/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   flex-direction: row;
@@ -461,21 +466,183 @@ body {
   align-items: center;
 }
 
-/* line 23, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+/* line 32, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.main-section__content-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 38, D:/AllProjects/верстка/proj2/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 26, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+/* line 41, D:/AllProjects/верстка/proj2/src/sass/style.sass */
 .nav-menu__item {
   margin-right: 64px;
   font-size: 18px;
 }
 
-/* line 29, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+/* line 44, D:/AllProjects/верстка/proj2/src/sass/style.sass */
 .nav-menu__item:last-child {
   margin-right: 0px;
+}
+
+/* line 47, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 49, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.left-wrapper__block-blue {
+  position: absolute;
+  top: 135px;
+  left: -52px;
+  width: 565.95px;
+  height: 220px;
+  background: #5290EA;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+  z-index: 2;
+}
+
+/* line 60, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.left-wrapper__block-orange {
+  position: absolute;
+  top: 160px;
+  left: -20px;
+  width: 585.95px;
+  height: 220px;
+  background: #F28B64;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-50.81deg);
+  z-index: 3;
+}
+
+/* line 71, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.left-wrapper__block-white {
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  width: 565.95px;
+  height: 220px;
+  background: #E2E2E2;
+  border-radius: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transform: rotate(-36.15deg);
+  z-index: 1;
+}
+
+/* line 82, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.left-wrapper__img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 86, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+}
+
+/* line 91, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 94, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 96, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.right-wrapper__text-box {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 101, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 104, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.icons__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5290EA;
+  border-radius: 100%;
+  margin-right: 17px;
+}
+
+/* line 113, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.icons__item i {
+  font-size: 21px;
+}
+
+/* line 115, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.icons__item:last-child {
+  margin-right: 0px;
+}
+
+/* line 119, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+}
+
+/* line 122, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.title__hr {
+  position: absolute;
+  width: 62px;
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+}
+
+/* line 130, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.buttons {
+  display: inline-flex;
+}
+
+/* line 132, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #F28B64;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: 18px;
+}
+
+/* line 142, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.buttons__icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* line 145, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.buttons__img {
+  margin-right: 12px;
+}
+
+/* line 147, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.buttons__text {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
