@@ -21,7 +21,7 @@ body
 
 .main-section
     position: relative
-    height: 800px
+    min-height: 800px
     background: #F0F0F0
     padding-top: 16px
     overflow: hidden
@@ -179,3 +179,70 @@ body
     &__big
         width: 282px
         height: 282px
+
+
+.second-section
+    position: relative
+    min-height: 700px
+    padding-top: 32px
+    &__title
+        margin-bottom: 40px
+        & hr
+            width: 94px
+    &__cards-box
+        display: inline-flex
+    &__first-elipse
+        position: absolute
+        top: 80px
+        right: -60px
+    &__second-elipse
+        position: absolute
+        top: 364px
+        left: -60px
+.cards-item
+        position: relative
+        display: flex
+        align-items: flex-end
+        width: 360px
+        height: 360px
+        background: #E2E2E2
+        margin-right: 30px
+        margin-bottom: 28px
+        border-radius: 10px
+        z-index: 1
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+        &:last-child
+            margin-right: 0
+        &__img
+            width: 197px
+            height: 335px
+        &__text
+            width: 280px
+            position: absolute
+            top: 143px
+            right: -51px
+            text-align: center
+            font-size: 36px
+            transform: rotate(90deg)
+
+
+.cards-item_blue
+    background: $color-blue
+
+.cards-item_orange
+    background: $color-orange
+
+.icons-box
+    display: flex
+    justify-content: space-evenly
+
+.icons-item
+    display: inline-flex
+    align-items: center
+    &__img
+        margin-right: 20px
+        width: 80px
+    &__text
+        font-size: 18px
+        span
+            font-size: 48px
