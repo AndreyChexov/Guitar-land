@@ -804,4 +804,63 @@ body {
   font-size: 48px;
 }
 
+/* line 251, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.third_section {
+  position: relative;
+  min-height: 640px;
+  background: #F0F0F0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* line 257, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.third_section__second-elipse {
+  position: absolute;
+  bottom: 484px;
+  right: -101px;
+}
+
+/* line 261, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.third_section__content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 268, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.third_section__right_side {
+  max-width: 480px;
+}
+
+/* line 270, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.third_section__right_text {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* line 274, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.third_section__first-elipse {
+  position: absolute;
+  top: 142px;
+  left: 296px;
+  z-index: -1;
+}
+
+/* line 279, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.third_section__figure {
+  position: absolute;
+  top: 249px;
+  left: 212px;
+  z-index: -1;
+}
+
+/* line 285, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.title__hr_top {
+  bottom: -10px;
+}
+
 /*# sourceMappingURL=style.css.map */
