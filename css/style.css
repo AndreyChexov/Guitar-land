@@ -863,4 +863,35 @@ body {
   bottom: -10px;
 }
 
+/* line 289, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.footer {
+  position: relative;
+}
+
+/* line 291, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.footer__container {
+  min-height: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 296, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.footer__title {
+  margin-bottom: 20px;
+}
+
+/* line 298, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.footer__img {
+  position: absolute;
+  width: 672px;
+  left: -26px;
+  bottom: 0px;
+}
+
+/* line 308, D:/AllProjects/верстка/proj2/src/sass/style.sass */
+.icons_footer {
+  background: #F0F0F0;
+}
+
 /*# sourceMappingURL=style.css.map */
