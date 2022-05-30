@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 1, D:/AllProjects/верстка/proj2/src/sass/reset.scss */
+/* line 1, ../AllProjects/верстка/proj2/src/sass/reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,40 +21,40 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 21, D:/AllProjects/верстка/proj2/src/sass/reset.scss */
+/* line 21, ../AllProjects/верстка/proj2/src/sass/reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 25, D:/AllProjects/верстка/proj2/src/sass/reset.scss */
+/* line 25, ../AllProjects/верстка/proj2/src/sass/reset.scss */
 html {
   height: 100%;
 }
 
-/* line 28, D:/AllProjects/верстка/proj2/src/sass/reset.scss */
+/* line 28, ../AllProjects/верстка/proj2/src/sass/reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 31, D:/AllProjects/верстка/proj2/src/sass/reset.scss */
+/* line 31, ../AllProjects/верстка/proj2/src/sass/reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 34, D:/AllProjects/верстка/proj2/src/sass/reset.scss */
+/* line 34, ../AllProjects/верстка/proj2/src/sass/reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 37, D:/AllProjects/верстка/proj2/src/sass/reset.scss */
+/* line 37, ../AllProjects/верстка/proj2/src/sass/reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 42, D:/AllProjects/верстка/proj2/src/sass/reset.scss */
+/* line 42, ../AllProjects/верстка/proj2/src/sass/reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
